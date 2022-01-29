@@ -1,7 +1,54 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  const sum1 = array[0] + array[1]
+  const sum2 = array[0] + array[2]
+  const sum3 = array[0] + array[3]
+  const sum4 = array[0] + array[4]
+  const sum5 = array[0] + array[5]
+  const sum6 = array[1] + array[2]
+  const sum7 = array[1] + array[3]
+  const sum8 = array[1] + array[4]
+  const sum9 = array[1] + array[5]
+  const sum10 = array[2] + array[3]
+  const sum11 = array[2] + array[4]
+  const sum12 = array[2] + array[5]
+  const sum13 = array[3] + array[4]
+  const sum14 = array[3] + array[5]
+  const sum15 = array[4] + array[5]
+    if(sum1 === target){
+      return true
+    }else if(sum2 === target){
+      return true
+    }else if(sum3 === target){
+      return true
+    }else if(sum4 === target){
+      return true
+    }else if(sum5 === target){
+      return true
+    }else if(sum6 === target){
+      return true
+    }else if(sum7 === target){
+      return true
+    }else if(sum8 === target){
+      return true  
+    }else if(sum9 === target){
+      return true
+    }else if(sum10 === target){
+      return true
+    }else if(sum11 === target){
+      return true
+    }else if(sum12 === target){
+      return true
+    }else if(sum13 === target){
+      return true
+    }else if(sum14 === target){
+      return true
+    }else if(sum15 === target){
+      return true
+    }else {
+      return false
+    }
 }
-
 /* 
   Write the Big O time complexity of your function here
 */
